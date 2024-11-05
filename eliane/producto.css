@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    background-color: rgb(255, 255, 255);
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 5px solid wheat; */
+    box-shadow: 0px,0px,20px rgb(0, 0, 0,0 , 0.75);
+    background: radial-gradient(
+        circle at 20% 100% , rgb(156, 8, 107),rgb(15, 149, 187), rgba(253, 237, 9, 0.575) ) ;
+
+}
+ul li {
+    margin-right: 20px;
+}
+section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly
+}
+a{
+    color: rgb(253, 242, 255); 
+    text-decoration: none;
+}
+h1{
+    color: aliceblue;
+}
+.cama{
+    height: 550px;
+    width: 420px;
+    background-color: rgb(228, 203, 235);
+    border-radius: 20%;
+    margin: 5px;
+    box-shadow: 15px 5px 5px rgb(148, 22, 173);
+
+}
+.toto{
+   text-align: center; 
+   margin: 20px;
+   padding: 5px;
+}
+.masa{
+    border-radius: 10%;
+ /* display: flex; */
+ /* justify-content: center; */
+    margin-left: 27px ;
+    position: relative;
+
+}
+img{
+    border-radius: 20%;
+}
+.dada{
+    margin-left: 27px ;
+    position: relative;
+
+
+}
+
+a:hover{
+    background-color: rgb(168, 114, 179);
+    padding: 5px;
+
+    color: rgb(241, 235, 235);
+    border-radius: 18%;
+
+
+
+}
